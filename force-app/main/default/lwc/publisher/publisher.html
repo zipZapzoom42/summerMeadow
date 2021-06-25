@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Event Gun" icon-name="utility:events">
+        <lightning-input label="Message" type="text" value={messageText} onchange={trackMessageChange}></lightning-input>
+        <lightning-button variant="Neutral" label="Send Message" title="Convey" onclick={handleClick}
+            class="slds-m-left_x-small"></lightning-button>
+        <p>Sent Message:{messageText}</p>
+    </lightning-card>
+</template>
